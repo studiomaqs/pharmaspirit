@@ -1,0 +1,80 @@
+
+<!-- We don't need full layout here, because this page will be parsed with Ajax-->
+<!-- Top Navbar-->
+<div class="navbar">
+  <div class="navbar-inner">
+    <div class="left">
+      <a href="#" class="link icon-only open-panel"> <i class="icon icon-bars color-white"></i></a>
+      <!-- <a href="#" class="back link"> <i class="icon icon-back"></i><span>Back</span></a> -->
+    </div>
+    <div class="center sliding">New Update</div>
+    <div class="right">
+      <!-- Right link contains only icon - additional "icon-only" class<a href="#" class="link icon-only open-panel"> <i class="icon icon-bars"></i></a>-->
+    </div>
+  </div>
+</div>
+<div class="pages">
+  <!-- Page, data-page contains page name-->
+  <div data-page="update" class="page">
+    <!-- Scrollable page content-->
+    <div class="page-content">
+      <div class="swiper-custom">
+        <div class="swiper-container swiper-init"  data-speed="400" data-space-between="40" data-pagination=".swiper-pagination">
+          <div class="swiper-pagination"></div>
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><span>
+              <p class="date-time">20 October, 5:00 PM</p> 
+              <p>The gas present in the <a href="#" alt="stratosphere" title="stratosphere">stratosphere</a> which filters out some of the sun's ultraviolet light and provides an effective shield against radiation damage to living things is The gas present in the stratosphere which filters out some of the sun's ultraviolet light and provides an effective shield against radiation </p>
+              <p><a href="#" alt="Another Link" title="Another Link">Another Link </a></p>
+              <img src="images/img_update.png">
+            </span></div>
+            <div class="swiper-slide"><span>
+              <p class="date-time">20 October, 5:00 PM</p> 
+              <img src="images/sample-1.jpg">
+              <p>The gas present in the stratosphere which filters out some of the sun's ultraviolet light and provides an effective shield against radiation damage to living things is The gas present in the stratosphere</p>
+            </span></div>
+            <div class="swiper-slide"><span>
+              <p class="date-time">20 October, 5:00 PM</p> 
+              <p>The gas present in the stratosphere which filters out some of the sun's ultraviolet light and provides an effective shield against radiation damage to living things is The gas present in</p>
+              <img src="images/sample-1.jpg">
+            </span></div>
+            <div class="swiper-slide"><span>
+              <p class="date-time">20 October, 5:00 PM</p> 
+              <img src="images/sample-1.jpg">
+              <p>The gas present in the stratosphere which filters out some of the sun's ultraviolet light and provides an effective shield against radiation damage to living things is The gas present in the st</p>
+            </span></div>
+            <div class="swiper-slide"><span>
+              <p class="date-time">20 October, 5:00 PM</p> 
+              <p>The gas present in the stratosphere which filters out some of the sun's ultraviolet light and provides an effective shield against radiation damage to living things is The gas present in the stratosphere</p>
+              <img src="images/sample-1.jpg">
+            </span></div>
+            <div class="swiper-slide"><span>
+              <p class="date-time">20 October, 5:00 PM</p> 
+              <img src="images/sample-1.jpg">
+              <p>The gas present in the stratosphere which filters out some of the sun's ultraviolet light and provides an effective shield against radiation damage to living things is The gas present in the strat</p>
+            </span></div>
+            <div class="swiper-slide"><span>
+                <p class="date-time">20 October, 5:00 PM</p> 
+              <p>The gas present in the stratosphere which filters out some of the sun's ultraviolet light and provides an effective shield against radiation damage to living things is The gas present in the stratosp</p>
+              <img src="images/sample-1.jpg">
+            </span></div>
+          </div>
+        </div>
+<!--         <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div> -->
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  var myApp = new Framework7(); 
+   
+  var mySwiper = myApp.swiper('.swiper-container', {
+    pagination: '.swiper-pagination',
+    paginationHide: false,
+    paginationClickable: true,
+    // nextButton: '.swiper-button-next',
+    // prevButton: '.swiper-button-prev',
+  });      
+</script>

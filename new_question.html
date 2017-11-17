@@ -1,0 +1,112 @@
+
+<!-- We don't need full layout here, because this page will be parsed with Ajax-->
+<!-- Top Navbar-->
+<div class="navbar">
+  <div class="navbar-inner">
+    <div class="left">
+      <a href="#" class="link icon-only open-panel"> <i class="icon icon-bars color-white"></i></a>
+    <!--   <a href="#" class="back link"> <i class="icon icon-back"></i><span>Back</span></a> -->
+    </div>
+    <div class="center sliding">New Question</div>
+    <div class="right">
+      <!-- Right link contains only icon - additional "icon-only" class<a href="#" class="link icon-only open-panel"> <i class="icon icon-bars"></i></a>-->
+    </div>
+  </div>
+</div>
+<div class="pages">
+  <!-- Page, data-page contains page name-->
+  <div data-page="new_question" class="page">
+
+
+       <div class="toolbar">
+          <div class="toolbar-inner">
+              <a href="#" data-popup=".popup-right" class="link open-popup">Right</a>
+              <a href="#" data-popup=".popup-about" class="link open-popup">Check Answer</a>
+              <a href="#" data-popup=".popup-wrong" class="link open-popup">Wrong</a>
+          </div>
+      </div>
+      
+      
+
+    <!-- Scrollable page content-->
+    <div class="page-content">
+      <div class="content-block new-question-blocks">
+          <p>A study was performed to examine whether or not an exam preparatory course is associated with increased pass rate of the licensing exams for pharmacists among recent pharmacy graduates.</p>
+          <img src="images/img_question.png">
+
+        <!-- <div class="content-block-title">What is your favourite song?</div> -->
+          <div class="list-block media-list">
+            <ul>
+              <li>
+                <label class="label-radio item-content">
+                  <input type="radio" name="my-radio" checked>
+                  <div class="item-inner">
+                    <div class="item-title-row">
+                    </div>
+                    <div class="item-subtitle">Calculate the prevalence of passing the licensing exam among the study population.</div>
+                  </div>
+                </label>
+              </li>
+
+              <li>
+                <label class="label-radio item-content">
+                  <input type="radio" name="my-radio" >
+                  <div class="item-inner">
+                    <div class="item-title-row">
+                    </div>
+                    <div class="item-subtitle">Calculate the incidence of passing the licensing exam among those who completed a preparatory course and those who wrote the exam without completing a course.</div>
+                  </div>
+                </label>
+              </li>
+
+              <li>
+                <label class="label-radio item-content">
+                  <input type="radio" name="my-radio">
+                  <div class="item-inner">
+                    <div class="item-title-row">
+                    </div>
+                    <div class="item-subtitle">Calculate the Relative Risk of passing the exam for those who completed a preparatory course.</div>
+                  </div>
+                </label>
+              </li>
+
+              <li>
+                <label class="label-radio item-content">
+                  <input type="radio" name="my-radio">
+                  <div class="item-inner">
+                    <div class="item-title-row">
+                    </div>
+                    <div class="item-subtitle">Calculate the Odd Ratio (OR) and Attributable Risk (AR) of passing the exam when the pharmacy graduate completes a preparatory course.</div>
+                  </div>
+                </label>
+              </li>
+
+            </ul>
+          </div>
+      </div> 
+      </div><!-- EOD page-content-->
+       
+      <!-- About Popup -->
+      <div class="popup popup-right  tablet-fullscreen">
+        <div class="content-block">
+          <div class="row">
+            <div class="col-auto left">Answer is Right!</div>
+            <div class="col-auto right"><a href="#" class="close-popup">Close popup</a></div> 
+          </div>
+          <img src="images/ico-right.png">
+          <p>A study was performed to examine whether or not an exam preparatory course is associated with increased pass rate of the licensing exams for pharmacists among recent pharmacy graduates. After the test results were released, the researcher interviewed 572 recent pharmacy graduates who wrote the exam. Overall, 420 of the study population passed the exam. From the study population, 198 pharmacy graduates completed an exam preparatory course. The pass rate among those who completed a preparatory course was 83%</p>
+        </div>
+      </div>
+      <!-- Services Popup -->
+      <div class="popup popup-wrong  tablet-fullscreen">
+        <div class="content-block">
+          <p>Answer is Wrong!</p>
+          <img src="images/ico-wrong.png">
+          <p><a href="#" class="close-popup">Close popup</a></p>
+          <p>A study was performed to examine whether or not an exam preparatory course is associated with increased pass rate of the licensing exams for pharmacists among recent pharmacy graduates. After the test results were released, the researcher interviewed 572 recent pharmacy graduates who wrote the exam. Overall, 420 of the study population passed the exam. From the study population, 198 pharmacy graduates completed an exam preparatory course. The pass rate among those who completed a preparatory course was 83%</p>
+        </div>
+      </div>
+
+
+    </div>
+  </div>

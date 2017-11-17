@@ -21,16 +21,16 @@
     <meta name="msapplication-tap-highlight" content="no">
 
     <!-- Your app title -->
-    <title>Pharmaspirit</title>
+    <title>PharmaSpirit</title>
 
     <!-- This template defaults to the iOS CSS theme. To support both iOS and material design themes, see the Framework7 Tutorial at the link below:
         http://www.idangero.us/framework7/tutorials/maintain-both-ios-and-material-themes-in-single-app.html
      -->
 
-    <link rel="stylesheet" href="lib/framework7/css/framework7.ios.min.css">
+   <link rel="stylesheet" href="lib/framework7/css/framework7.ios.min.css">
     <link rel="stylesheet" href="lib/framework7/css/framework7.ios.colors.min.css">
 	
-	<!-- <link rel="stylesheet" href="lib/framework7/css/framework7.material.min.css">
+	  <!-- <link rel="stylesheet" href="lib/framework7/css/framework7.material.min.css">
     <link rel="stylesheet" href="lib/framework7/css/framework7.material.colors.min.css"> -->
 
     <link rel="stylesheet" href="css/styles.css">
@@ -44,7 +44,17 @@
     <!-- Left panel with reveal effect-->
     <div class="panel panel-left panel-reveal">
       <div class="content-block">
-        <p>Left panel content goes here</p>
+        <p><a href="index.html" class="close-panel">Home</a></p>
+        <p><a href="question_bank.html" class="close-panel">Question Bank</a></p>
+        <p><a href="#" class="close-panel">My Progress</a></p>
+        <p><a href="update.html" class="close-panel">New Upldates</a></p>
+        <p><a href="faq.html" class="close-panel">FAQ</a></p>
+        <p><a href="#" class="close-panel">Search</a></p>
+        <p><a href="#" class="close-panel">About</a></p>
+        <p><a href="profile.html" class="close-panel">Profile</a></p>
+        <p><a href="login.html" class="close-panel">Sign In</a></p>
+        <p><a href="signup.html" class="close-panel">Sign UP</a></p>
+        <p><a href="#" class="close-panel">Sign Out</a></p>
       </div>
     </div>
     <!-- Right panel with cover effect-->
@@ -60,10 +70,13 @@
         <!-- Top Navbar-->
         <div class="navbar">
           <div class="navbar-inner">
+            <div class="left">
+              <!-- Right link contains only icon - additional "icon-only" class--><a href="#" class="link icon-only open-panel"> <i class="icon icon-bars color-white"></i></a>
+            </div>
             <!-- We have home navbar without left link-->
-            <div class="center sliding">Awesome App</div>
+            <div class="center sliding">PharmaSpirit</div>
             <div class="right">
-              <!-- Right link contains only icon - additional "icon-only" class--><a href="#" class="link icon-only open-panel"> <i class="icon icon-bars"></i></a>
+              <!-- Right link contains only icon - additional "icon-only" class<a href="#" class="link icon-only open-panel"> <i class="icon icon-bars"></i></a>-->
             </div>
           </div>
         </div>
@@ -73,7 +86,25 @@
           <div data-page="index" class="page">
             <!-- Scrollable page content-->
             <div class="page-content">
-              <div class="content-block-title">Welcome To My Awesome App</div>
+              <div class="content-block home-blocks">
+                <div class="row">
+                  <div class="col-auto"><a href="update.html"><img src="images/ico-new-updated.png"><br/>New Update</a></div>
+                  <div class="col-auto"><a href="#"><img src="images/ico-progress.png"><br/>My Progress</a></div>
+                </div>
+
+                 <div class="row">
+                  <div class="col-auto"><a href="faq.html"><img src="images/ico-faq.png"><br/>FAQ</a></div>
+                  <div class="col-auto"><a href="question_bank.html"><img src="images/ico-question-bank.png"><br/>Quesitions Bank</a></div>
+                </div>
+
+                 <div class="row">
+                  <div class="col-auto"><a href="new_question.html"><img src="images/ico-new-question.png"><br/>New Question</a></div>
+                  <div class="col-auto"><a href="#"><img src="images/ico-question-bank.png"><br/>About</a></div>
+                </div>
+              </div>
+
+
+              <!-- <div class="content-block-title">Welcome To My Awesome App</div> 
               <div class="content-block">
                 <div class="content-block-inner">
                   <p>Couple of worlds here because my app is so awesome!</p>
@@ -101,6 +132,12 @@
                           <div class="item-title">Form</div>
                         </div>
                       </div></a></li>
+                      <li><a href="update.html" class="item-link">
+                      <div class="item-content"> 
+                        <div class="item-inner">
+                          <div class="item-title">Update</div>
+                        </div>
+                      </div></a></li>
                 </ul>
               </div>
               <div class="content-block-title">Side panels</div>
@@ -112,11 +149,11 @@
               </div>
             </div>
           </div>
-        </div>
-        <!-- Bottom Toolbar-->
+        </div>-->
+        <!-- Bottom Toolbar
         <div class="toolbar">
           <div class="toolbar-inner"><a href="#" class="link">Link 1</a><a href="#" class="link">Link 2</a></div>
-        </div>
+        </div>-->
       </div>
     </div>
 
